@@ -1,0 +1,6 @@
+@EventManagementTrialCFA_HostAddress = http://localhost:5157
+
+GET {{EventManagementTrialCFA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
