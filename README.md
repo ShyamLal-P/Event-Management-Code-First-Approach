@@ -24,18 +24,19 @@ Create a file named `appsettings.json` in the root directory of your project and
     },
     "AllowedHosts": "*",
     "ConnectionStrings": {
-        "DefaultConnection": "Server=LTIN485218\\MSSQL;Database=EventManageCFA;Trusted_Connection=Yes;MultipleActiveResultSets=true;TrustServerCertificate=true"
+        "DefaultConnection": "Server=<Add Your Connection String>;Database=EventManageCFA;Trusted_Connection=Yes;MultipleActiveResultSets=true;TrustServerCertificate=true"
     }
 }
 
 ⚠️ Important Note
+
 To ensure that your appsettings.json file, which contains sensitive information like your connection string, is not included in your Git repository, add it to your .gitignore file:
 
 appsettings.json
 appsettings.Development.json
 🚀 Running the ApplicationClone the repository:
 
-git clone <repository-url>
+git clone https://github.com/ShyamLal-P/Event-Management-Code-First-Approach
 Navigate to the project directory:
 
 cd EventManagementTrialCFA
