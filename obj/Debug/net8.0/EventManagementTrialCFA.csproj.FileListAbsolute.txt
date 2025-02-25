@@ -1,5 +1,4 @@
 C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\appsettings.Development.json
-C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\appsettings.json
 C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\EventManagementTrialCFA.staticwebassets.endpoints.json
 C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\EventManagementTrialCFA.exe
 C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\EventManagementTrialCFA.deps.json
@@ -139,3 +138,4 @@ C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\runtimes\win\lib\net6.0\S
 C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Curriculum\EventManagementTrialCFA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Curriculum\EventManagementTrialCFA\obj\Debug\net8.0\EventManagementTrialCFA.sourcelink.json
+C:\Curriculum\EventManagementTrialCFA\bin\Debug\net8.0\appsettings.json

@@ -10,5 +10,6 @@
         public virtual ICollection<Event>? Events { get; set; }
         public virtual ICollection<Ticket>? Tickets { get; set; }
         public virtual ICollection<Notification>? Notifications { get; set; }
+        public virtual ICollection<Feedback>? Feedbacks { get; set; }
     }
 }

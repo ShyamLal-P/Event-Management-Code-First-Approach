@@ -11,6 +11,7 @@ namespace EventManagementTrialCFA
         public DbSet<User> Users { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Feedback> Feedbacks { get; set; } 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,12 +30,30 @@ namespace EventManagementTrialCFA
                 .HasOne(t => t.Event)
                 .WithMany(e => e.Tickets)
                 .HasForeignKey(t => t.EventId)
-                .OnDelete(DeleteBehavior.NoAction); ; 
+                .OnDelete(DeleteBehavior.NoAction); ;
 
-            modelBuilder.Entity<Notification>() 
+            modelBuilder.Entity<Notification>()
+                .HasOne(n => n.User)
+                .WithMany(u => u.Notifications)
+                .HasForeignKey(n => n.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Notification>()
                 .HasOne(n => n.Event)
                 .WithMany(e => e.Notifications)
                 .HasForeignKey(n => n.EventId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Feedback>() // Add this configuration
+                .HasOne(f => f.User)
+                .WithMany(u => u.Feedbacks)
+                .HasForeignKey(f => f.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Feedback>() // Add this configuration
+                .HasOne(f => f.Event)
+                .WithMany(e => e.Feedbacks)
+                .HasForeignKey(f => f.EventId)
                 .OnDelete(DeleteBehavior.NoAction);
         }
     }
