@@ -13,6 +13,7 @@
             // Navigation Property
             public virtual User? User { get; set; }
         public virtual ICollection<Ticket>? Tickets { get; set; }
+        public virtual ICollection<Notification>? Notifications { get; set; }
 
     }
-    }
+}

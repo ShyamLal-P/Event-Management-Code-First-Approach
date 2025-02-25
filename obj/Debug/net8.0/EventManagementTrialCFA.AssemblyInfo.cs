@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventManagementTrialCFA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecfa309d4b75c5d163e1ade7856992d02192a1f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7311f6c9a985fe875d016b9ab39272eb2338a86")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventManagementTrialCFA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventManagementTrialCFA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
